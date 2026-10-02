@@ -28,7 +28,7 @@ APP_NAME = "residencial_aurora"
 USER_ID = "morador"
 """O morador autenticado. O apartamento vive no state da sessão."""
 
-MODELO = os.getenv("AURORA_MODEL", "gemini-2.5-flash")
+MODELO = os.getenv("AURORA_MODEL", "gemini-3.8-flash")
 
 INICIO_CODIGO_RESERVA = 5000
 """Primeiro valor da sequência de códigos novos. Acima de qualquer código inicial."""

@@ -251,10 +251,10 @@ cp .env.example .env
 
 ```bash
 GOOGLE_API_KEY=sua-chave-do-google-ai-studio
-AURORA_MODEL=gemini-2.5-flash
+AURORA_MODEL=gemini-3.8-flash
 ```
 
-`AURORA_MODEL` é opcional; o padrão é `gemini-2.5-flash`. O app carrega o
+`AURORA_MODEL` é opcional; o padrão é `gemini-3.8-flash`. O app carrega o
 `.env` sozinho na inicialização (`src/residencial_aurora/config.py`), então não é
 preciso exportar a chave na mão.
 
